@@ -169,11 +169,6 @@ class _HomePageState extends State<HomePage> {
       _infoText2 = "Valor Individual (s/bebida):\tR\$ ${individual}";
       _infoText3 = "Valor Individual (c/bebida):\tR\$ ${individualBebida}";
 
-      /*double = double.parse(_tPeso.text);
-      double altura = double.parse(_tAltura.text) / 100;
-      double imc = peso / (altura * altura);
-      String imcStr = imc.toStringAsPrecision(4);
-      _infoText = imcStr;*/
     });
   }
 
